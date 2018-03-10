@@ -100,7 +100,8 @@ module Database.Selda
   , Preparable, Prepare
   , prepared
     -- * Defining schemas
-  , TableSpec, ColSpecs, ColSpec, TableName, ColName
+  , TableSpec, ColSpecs, ColSpec (..), TableName, ColName, ColInfo (..)
+  , newCol
   , NonNull, IsNullable, Nullable, NotNullable
   , Append (..), (:++:)
   , Selectors, HasSelectors
